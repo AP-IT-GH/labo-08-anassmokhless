@@ -5,20 +5,34 @@ li{
     text-align: center;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
+html{
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+nav{min-height: 100%;
+}
 
 li:hover{
     background-color: white;
     color: red;
 }
 
+ul{
+    min-height: 100%;
+}
 @media only screen and (min-width: 1000px){
     ul{
         display: flex;
         flex-direction: row;
         align-items: center;
-        min-height: 100%;
+       
     }
     
 }
